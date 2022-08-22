@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
-import './BaiTapBookingTicket.css'
 import { connect } from 'react-redux'
+import './BaiTapBookingTicket.css'
+
 
 
 function SeatList(props) {
@@ -76,7 +77,7 @@ function SeatList(props) {
                     })}
                 </tbody>
             </table>
-            <button className='btn btn-success' onClick={handleClick}>Xác nhận đặt</button>
+            <button className='btn btn-success' onClick={handleClick}>Đặt vé</button>
         </div>
     );
 }

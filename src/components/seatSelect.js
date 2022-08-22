@@ -2,7 +2,7 @@ import React from 'react';
 import './BaiTapBookingTicket.css'
 
 function SeatSelect(props) {
-    //find selected seat in Seat List 
+    // Find selected seat in Seat List 
     const seatList = props.selectedSeat.seatListStore;
     const foundSelSeat = []
     seatList.forEach(row => {
@@ -12,9 +12,10 @@ function SeatSelect(props) {
             }
         })
     })
-    //===============================
+
     var sum = 0;
-    foundSelSeat.forEach(item => {
+    foundSelSeat.forEach(
+        item => {
         sum += item.cloneSeat.gia
     })    
     return (
