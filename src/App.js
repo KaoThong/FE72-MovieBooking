@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/home';
-import './components/BaiTapBookingTicket.css'
+import './components/BookingTicket.css'
 function App() {
   return (
     <div className="backGround">

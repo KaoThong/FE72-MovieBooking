@@ -1,7 +1,7 @@
 import React from 'react';
 import SeatList from './seatList';
 import SeatSelect from './seatSelect';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
 import isEmpty from 'lodash.isempty';
 
 

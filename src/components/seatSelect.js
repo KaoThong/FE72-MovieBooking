@@ -13,10 +13,9 @@ function SeatSelect(props) {
         })
     })
 
-    var sum = 0;
-    foundSelSeat.forEach(
-        item => {
-        sum += item.cloneSeat.gia
+    var total = 0;
+    foundSelSeat.forEach(item => {
+        total += item.cloneSeat.gia
     })    
     return (
         <div style={{width:'30%'}}>
@@ -47,7 +46,7 @@ function SeatSelect(props) {
                         <th>Thành tiền</th>
                         <th></th>
                         <th style={{textAlign: 'center'}}>
-                           {sum}
+                           {total}
                         </th>
                     </tr>
                 </tbody>
