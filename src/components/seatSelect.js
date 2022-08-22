@@ -1,5 +1,5 @@
 import React from 'react';
-import './BaiTapBookingTicket.css'
+import './BookingTicket.css'
 
 function SeatSelect(props) {
     // Find selected seat in Seat List 
