@@ -12,7 +12,7 @@
   }
 
 .chair {
-    border: 3px solid orange;
+    border: 3px solid rgb(255, 98, 0);
     width: 45px;
     height: 35px;
     font-size: 12px;
@@ -40,7 +40,7 @@
 }
 
 .screen{
-    border-bottom: 50px solid rgb(234, 205, 148);
+    border-bottom: 50px solid rgb(255, 98, 0);
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     height: 100;
@@ -53,8 +53,8 @@
 
 .chaiSelected::before {
     content: "";
-    border: 3px solid rgb(234, 205, 148);
-    background: rgb(234, 205, 148);
+    border: 3px solid rgb(255, 98, 0);
+    background: rgb(255, 98, 0);
     color: #000;
     cursor: no-drop !important;
     border-radius: 5px;
@@ -93,7 +93,7 @@
 }
 
 .tit {
-    color: rgb(255, 171, 3);
+    color: rgb(255, 98, 0);
     text-align: center;
     margin-bottom: 50px;
     padding-top: 20px;
