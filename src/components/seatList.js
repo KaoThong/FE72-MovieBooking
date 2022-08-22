@@ -61,12 +61,12 @@ function SeatList(props) {
                                 {seatRow.danhSachGhe.map(seat => {
                                     if(seat.daDat === true) {
                                         return <td key={seat.soGhe}>
-                                            <input className='ghe gheDuocChon' disabled={seat.daDat} onChange={(e) => handleChange(seat, e)} value={seatRow.hang} defaultChecked={seat.daDat} type='checkbox' />
+                                            <input className='chair chairSelected' disabled={seat.daDat} onChange={(e) => handleChange(seat, e)} value={seatRow.hang} defaultChecked={seat.daDat} type='checkbox' />
                                         </td>
                                     }
                                     else {
                                         return <td key={seat.soGhe}>
-                                            <input className='ghe' onChange={(e) => handleChange(seat, e)} value={seatRow.hang} type='checkbox' />
+                                            <input className='chair' onChange={(e) => handleChange(seat, e)} value={seatRow.hang} type='checkbox' />
                                         </td>
                                     }
                                   

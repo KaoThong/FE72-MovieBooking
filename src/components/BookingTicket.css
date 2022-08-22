@@ -1,7 +1,5 @@
-
-
 .bookingMovie{
-    font-family: 'fontGame';
+    font-family: 'Roboto';
 }
 
 .tbSeat, .thSeat, .tdSeat {
@@ -13,7 +11,7 @@
     background-color: rgba(255, 255, 255, 0.5);
   }
 
-.ghe {
+.chair {
     border: 3px solid orange;
     width: 45px;
     height: 35px;
@@ -25,20 +23,18 @@
 }
 
 .rowNumber{
-    /* font-size: 25px; */
-    width: 45px;
+    font-size: 30px;
     height: 35px;
-    background: none;
-    border:none;
+    width: 40px;
     margin-left: 2%;
     margin-bottom: 1%;
-    font-size: 30px;
-    color: rgb(255, 98, 0);
-    
+    background: none;
+    border:none;
+    color: rgb(255, 98, 0);  
 }
 .firstChar{
-    color: rgb(255, 98, 0);
     font-size: 35px;
+    color: rgb(255, 98, 0);
     margin-right: 15px;
 
 }
@@ -55,7 +51,7 @@
 }
 
 
-.gheDuocChon::before {
+.chaiSelected::before {
     content: "";
     border: 3px solid rgb(234, 205, 148);
     background: rgb(234, 205, 148);
@@ -70,7 +66,7 @@
 
 }
 
-.gheDangChon {
+.chairSelecting {
     background: rgb(109, 238, 109);
     border: 3px solid rgb(109, 238, 109);
     color: #000;
@@ -92,8 +88,8 @@
 .backGround {
     background: url('../asset/img/bgmovie.jpg');
     background-size: cover;
-    opacity: 0.9;
     backdrop-filter:initial;
+    height: 1200px;
 }
 
 .tit {
@@ -103,12 +99,6 @@
     padding-top: 20px;
 }
 
-.tit-1 {
-    font-size: 30px;
-    color: rgb(255, 171, 3);
-    text-align: center;
-    margin-bottom: 30px;
-}
 
 .tb-seat {
     margin-top: 14%;

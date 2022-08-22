@@ -19,7 +19,7 @@ function SeatSelect(props) {
     })    
     return (
         <div style={{width:'30%'}}>
-            <h1 className='tit-1'>Ghế đã chọn</h1>
+            <h1>Ghế đã chọn</h1>
             <table className='tb-seat'>
                 <thead>
                     <tr>
